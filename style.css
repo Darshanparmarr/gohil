@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-size: auto;
+    background-size: cover;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  nav {    text-align: right;
+  }
+  nav ul {
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  
+  }
+  .header {
+    background-color: #2b2b2b;
+    font-size: 20px;
+    width: 100%;
+  }
+  .logo img{
+margin-right: 100%; 
+   width:100px;
+  }
+
+.container1 img{
+    width: 1900px;
+    height: 850px;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+.container4 {
+    padding-top: 5%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .product {
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+  }
+  .product1 {
+    display: inline-block;
+    width: 17%;
+    margin: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    box-shadow:2px 2px 20px 1px  black;
+  }
+  .name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 65%;
+    color:black ;
+    margin-top: 9%;
+    text-align: center;
+  }
+
+  .name1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 65%;
+    color:black ;
+    margin-top: 9%;
+    text-align: center;
+  }
+  .title1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ .product h6{
+margin-top:2% ;
+margin-right: 85%;
+font-size: 100%;  
+color:rgba(0, 0, 0, 0.63);
+  }
+
+  .container3 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+background-color: aliceblue;}
+  
+.banner{
+    padding-left: 10% ;
+    padding-top: 10%;
+    position: absolute;
+}
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-top: 20%;
+    color: black;
+    padding-left: 55%;
+}
+.text h1{
+    color: black;
+padding-left: 55%;
+padding-top: 1%;
+}
+.text h6{
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 100%;
+    padding-right: 15%;
+    color: rgba(0, 0, 0, 0.493);
+    padding-left: 55%;
+padding-top: 1%;
+}
+.button{
+    box-shadow: 2px 2px 5px black;
+    margin-top: 1%;
+    font-size: 120%;
+    border: none;
+    color: black;
+    margin-left: 55%;
+    padding-left:50px;
+    padding-right: 50px;
+    background-color: rgb(119, 211, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.row1{
+background-color: rgb(193, 226, 245);
+    margin-top: 30%;
+    margin-bottom: 10%;
+    padding-left: 7%;
+}
+.row2 img{
+    height: 350px;
+  width: 600px;
+}
+
+.row2{
+  margin-left: 15%;
+}
+.row3 {
+    margin-top: 1%;
+  margin-left: 1%;
+    
+}
+.name1{
+    width: 50%;
+    margin-top: 15%;
+    position: absolute;
+    color: white;
+    padding-right: 0%;
+}
+.name2{
+    padding-left: 15%;
+    width: 50%;
+    margin-top: 15.5%;
+    position: absolute;
+    color: white;
+    padding-right: 0%;
+}
+.name3{
+    padding-top: 15%;
+    width: 50%;
+    padding-left: 50%;
+    position: absolute;
+    color: white;
+    padding-right: 0%;
+}
+.name4{
+    
+        padding-left: 40%;
+        width: 50%;
+        margin-top: 15.5%;
+        position: absolute;
+        color: white;
+        padding-right: 0%;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f8f9fa;
+      }
+      .footer div {
+        width: 20%;
+      }
+      .footer h3 {
+        color: #333;
+      }
+      .footer p {
+        color: #666;
+      }
+      .footer a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      .conta {   
+         display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color:rgb(165, 240, 250);
+        margin-bottom: 10%;
+      }
+      .conta div {
+        text-align: center;
+        color: purple;
+      }
+      
+      .conta p{
+        color: #2b2b2b;
+      }
+    .consta i{
+        width: 50%;
+        color: #2b2b2b;
+    }
+    .product img:hover{
+        translate: (-115px);
+    }
+    .cart{
+width: 10%;
+margin-left: 100%;
+    }
+    
